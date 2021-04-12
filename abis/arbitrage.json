@@ -1,0 +1,56 @@
+{
+	"arbitrageContract": [
+	{
+		"inputs": [],
+		"name": "destruct",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dai",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_eth",
+				"type": "uint256"
+			}
+		],
+		"name": "Strategy1",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dai",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_eth",
+				"type": "uint256"
+			}
+		],
+		"name": "Strategy2",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	}
+]
+}
